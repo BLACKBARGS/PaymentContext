@@ -22,11 +22,11 @@ namespace PaymentContext.Domain.Entities
     {
         public string? CardHolderName { get; set; }
         public string? CardNumber { get; set; }
-        public string? LasTransactionNumber { get; set; } 
+        public string? LasTransactionNumber { get; set; }
     }
 
     public class PayPalPayment : Payment
     {
-       public string? TransactionCode { get; set; } 
+        public string? TransactionCode { get; set; }
     }
 }
