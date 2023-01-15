@@ -2,7 +2,7 @@ namespace PaymentContext.Domain.Entities
 {
     public abstract class Payment
     {
-        public string? Numer { get; set; }
+        public string? Number { get; set; }
         public DateTime PaidDate { get; set; }
         public DateTime ExpireDate { get; set; }
         public decimal Total { get; set; }
