@@ -2,12 +2,12 @@ using PaymentContext.Domain.ValueObjects;
 
 namespace PaymentContext.Domain.Entities
 {
-        public class CreditCardPayment : Payment
+    public class CreditCardPayment : Payment
     {
         public CreditCardPayment(
-            string? cardHolderName
-            , string? cardNumber
-            , string? lasTransactionNumber,
+            string? cardHolderName,
+            string? cardNumber,
+            string? lasTransactionNumber,
             DateTime paidDate,
             DateTime expireDate,
             decimal total,
