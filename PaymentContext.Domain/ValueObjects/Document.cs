@@ -1,8 +1,9 @@
+using PaymentContext.Shared.ValueObjects;
 using PaymentContext.Domain.Enums;
 
 namespace PaymentContext.Domain.ValueObjects
 {
-    public class Document
+    public class Document : ValueObject
     {
         public Document(string number, EDocumentType type)
         {
