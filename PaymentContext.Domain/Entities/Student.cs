@@ -3,9 +3,9 @@ using PaymentContext.Domain.ValueObjects;
 using Flunt.Validations;
 
 namespace PaymentContext.Domain.Entities;
-public class Student : Entity
+    public class Student : Entity
 {
-private readonly IList<Subscription> _subscriptions;
+    private readonly IList<Subscription> _subscriptions;
     public Student(Name name, Document document, Email email)
     {
         Name = name;
@@ -22,12 +22,12 @@ public IReadOnlyCollection<Subscription> Subscriptions => _subscriptions.ToArray
     public void AddSubscription(Subscription subscription) 
     { 
     var hasSubscriptionActive = false;
-        foreach (var sub in _subscriptions)
-        if (sub.Active)
-        hasSubscriptionActive = true;
-        AddNotifications(new Contract<Student>()
-        .Requires()
-        .IsFalse(hasSubscriptionActive, "Student.Subscriptions", "You have an active Subscription!")
+    foreach (var sub in _subscriptions)
+    if (sub.Active)
+    hasSubscriptionActive = true;
+    AddNotifications(new Contract<Student>()
+    .Requires()
+    .IsFalse(hasSubscriptionActive, "Student.Subscriptions", "You have an active Subscription!")
     );
     } 
 }

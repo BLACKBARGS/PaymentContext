@@ -4,7 +4,7 @@ using Flunt.Validations;
 
 namespace PaymentContext.Domain.ValueObjects;
 
-public class Document : ValueObject
+    public class Document : ValueObject
 {
     public Document(string number, EDocumentType type)
     {
@@ -20,9 +20,9 @@ public EDocumentType Type { get; private set; }
     private bool Validate()
     {
         if(Type == EDocumentType.CNPJ && Number.Length == 14)
-            return true;
+        return true;
         if(Type == EDocumentType.CPF && Number.Length == 11)
-            return true;
-        return false;
+        return true;
+    return false;
     }
 }
