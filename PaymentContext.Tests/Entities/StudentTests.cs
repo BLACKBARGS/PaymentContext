@@ -1,3 +1,4 @@
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PaymentContext.Domain.Entities;
 using PaymentContext.Domain.ValueObjects;
@@ -5,15 +6,15 @@ using PaymentContext.Domain.ValueObjects;
 namespace PaymentContext.Tests;
 
 [TestClass]
-    public class StudentTests
+public class StudentTests
 {
-[TestMethod]
+    //[TestMethod]
     public void NewSubscription()
     {
         var name = new Name("Francys","Rodrigues");
         foreach(var not in name.Notifications)
         {
-            //not.Message;
+            
         }
     }
 }

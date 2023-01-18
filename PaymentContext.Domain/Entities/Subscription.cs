@@ -3,7 +3,7 @@ using PaymentContext.Shared.Entities;
 
 namespace PaymentContext.Domain.Entities;
 
-    public class Subscription : Entity
+public class Subscription : Entity
 {
     private IList<Payment> _payments;
     public Subscription(DateTime? expireDate)
@@ -14,19 +14,21 @@ namespace PaymentContext.Domain.Entities;
         Active = true;
         _payments = new List<Payment>();
     }
-public DateTime CreateDate { get; private set; }
-public DateTime LastUpdateDate { get; private set; }
-public DateTime? ExpireDate { get; private set; }
-public bool Active {get; private set;}
-public IReadOnlyCollection<Payment>? Payments {get; private set;}
+
+    public DateTime CreateDate { get; private set; }
+    public DateTime LastUpdateDate { get; private set; }
+    public DateTime? ExpireDate { get; private set; }
+    public bool Active {get; private set;}
+    public IReadOnlyCollection<Payment>? Payments {get; private set;}
+
     public void AddPayment(Payment payment)
     {
         AddNotifications(new Contract<Subscription>()
         .Requires()
-        .IsGreaterThan(DateTime.Now, payment.PaidDate, "The payment is coming ")
-        );
+        .IsGreaterThan(DateTime.Now, payment.PaidDate, "The payment is coming "));
     _payments.Add(payment);
     }
+    
     public void Activate()
     {
         Active = true;
