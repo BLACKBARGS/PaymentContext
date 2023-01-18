@@ -21,6 +21,8 @@ public class Student : Entity
     public Address? Address { get; private set; } 
     public IReadOnlyCollection<Subscription> Subscriptions => _subscriptions.ToArray();
 
+    public bool Invalid { get; set; }
+
     public void AddSubscription(Subscription subscription) 
     { 
         var hasSubscriptionActive = false;

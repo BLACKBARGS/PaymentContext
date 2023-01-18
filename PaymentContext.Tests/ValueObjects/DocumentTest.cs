@@ -4,34 +4,39 @@ using PaymentContext.Domain.ValueObjects;
 
 namespace PaymentContext.Tests;
 
-[TestClass]
-public class DocumentTests
-{    
-    [TestMethod]
-    public void ShouldReturnErrorWhenCNPJIsInvalid(string CNPJ)
+    [TestClass]
+    public class DocumentTests
     {
-        var doc = new Document("123", EDocumentType.CPF);
+        
+    [TestMethod]
+    public void ShouldReturnErrorWhenCNPJIsInvalid()
+    {
+        var doc = new Document("123", EDocumentType.CNPJ);
         Assert.IsTrue(doc.Invalid);
     }
 
     [TestMethod]
-    public void ShouldReturnErrorWhenCNPJIsValid()
+    public void ShouldReturnSuccessWhenCNPJIsValid()
     {
-        var doc = new Document("12345687537834", EDocumentType.CNPJ);
-        Assert.IsTrue(doc.IsValid);
-    }
-
-    [TestMethod]
-    public void ShouldReturnErrorWhenCPFIsValid()
-    {
-        var doc = new Document("60232085097", EDocumentType.CPF);
+        var doc = new Document("34110468000150", EDocumentType.CNPJ);
         Assert.IsTrue(doc.IsValid);
     }
 
     [TestMethod]
     public void ShouldReturnErrorWhenCPFIsInvalid()
     {
-        var doc = new Document("60132111512097", EDocumentType.CPF);
+        var doc = new Document("123", EDocumentType.CPF);
         Assert.IsTrue(doc.Invalid);
+    }
+
+    [TestMethod]
+    [DataTestMethod]
+    [DataRow("34225545806")]
+    [DataRow("54139739347")]
+    [DataRow("01077284608")]
+    public void ShouldReturnSuccessWhenCPFIsValid(string cpf)
+    {
+        var doc = new Document(cpf, EDocumentType.CPF);
+        Assert.IsTrue(doc.IsValid);
     }
 }
