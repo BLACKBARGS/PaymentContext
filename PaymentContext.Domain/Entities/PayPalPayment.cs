@@ -26,6 +26,5 @@ namespace PaymentContext.Domain.Entities;
         {
             TransactionCode = transactionCode;
         }
-
     public string TransactionCode { get; private set; }
 }

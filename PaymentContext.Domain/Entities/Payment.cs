@@ -34,4 +34,3 @@ public Document Document { get; private set; }
 public Address Address { get; private set; }
 public Email Email { get; private set; }
 }
-    
