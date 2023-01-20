@@ -39,11 +39,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\itzsa\\OneDrive\\Área de Trabalho\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\itzsa\\Documents\\GitHub\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
       "projectName": "PaymentContext.Shared",
-      "projectPath": "C:\\Users\\itzsa\\OneDrive\\Área de Trabalho\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+      "projectPath": "C:\\Users\\itzsa\\Documents\\GitHub\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
       "packagesPath": "C:\\Users\\itzsa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\itzsa\\OneDrive\\Área de Trabalho\\PaymentContext\\PaymentContext.Shared\\obj\\",
+      "outputPath": "C:\\Users\\itzsa\\Documents\\GitHub\\PaymentContext\\PaymentContext.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\itzsa\\AppData\\Roaming\\NuGet\\NuGet.Config"

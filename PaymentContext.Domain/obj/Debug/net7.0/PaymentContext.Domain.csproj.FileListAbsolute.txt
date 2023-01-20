@@ -13,3 +13,18 @@ C:\Users\itzsa\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Domain\o
 C:\Users\itzsa\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\refint\PaymentContext.Domain.dll
 C:\Users\itzsa\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.pdb
 C:\Users\itzsa\OneDrive\Área de Trabalho\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\ref\PaymentContext.Domain.dll
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\bin\Debug\net7.0\PaymentContext.Domain.deps.json
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\bin\Debug\net7.0\PaymentContext.Domain.dll
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\bin\Debug\net7.0\PaymentContext.Domain.pdb
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\bin\Debug\net7.0\PaymentContext.Shared.dll
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\bin\Debug\net7.0\PaymentContext.Shared.pdb
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.csproj.AssemblyReference.cache
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.AssemblyInfoInputs.cache
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.AssemblyInfo.cs
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.csproj.CoreCompileInputs.cache
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.csproj.CopyComplete
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.dll
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\refint\PaymentContext.Domain.dll
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\PaymentContext.Domain.pdb
+C:\Users\itzsa\Documents\GitHub\PaymentContext\PaymentContext.Domain\obj\Debug\net7.0\ref\PaymentContext.Domain.dll

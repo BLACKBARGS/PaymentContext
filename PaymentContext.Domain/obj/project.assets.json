@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\itzsa\\OneDrive\\Área de Trabalho\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\itzsa\\Documents\\GitHub\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
       "projectName": "PaymentContext.Domain",
-      "projectPath": "C:\\Users\\itzsa\\OneDrive\\Área de Trabalho\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+      "projectPath": "C:\\Users\\itzsa\\Documents\\GitHub\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
       "packagesPath": "C:\\Users\\itzsa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\itzsa\\OneDrive\\Área de Trabalho\\PaymentContext\\PaymentContext.Domain\\obj\\",
+      "outputPath": "C:\\Users\\itzsa\\Documents\\GitHub\\PaymentContext\\PaymentContext.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\itzsa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -77,8 +77,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\itzsa\\OneDrive\\Área de Trabalho\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
-              "projectPath": "C:\\Users\\itzsa\\OneDrive\\Área de Trabalho\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+            "C:\\Users\\itzsa\\Documents\\GitHub\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+              "projectPath": "C:\\Users\\itzsa\\Documents\\GitHub\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
             }
           }
         }
