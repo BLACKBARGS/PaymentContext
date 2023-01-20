@@ -11,6 +11,5 @@ public class Email : ValueObject
         .Requires()
         .IsEmail(Address, "Email.Address", "INVALID EMAIL!")); 
     }
-
     public string Address { get; private set; }
 }
