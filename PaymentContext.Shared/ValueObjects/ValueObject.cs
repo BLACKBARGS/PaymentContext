@@ -1,9 +1,8 @@
 using Flunt.Notifications;
 
-namespace PaymentContext.Shared.ValueObjects
+namespace PaymentContext.Shared.ValueObjects;
+
+public class ValueObject : Notifiable<Notification>
 {
-   public class ValueObject : Notifiable<Notification>
-   {
         
-   } 
-}
+} 
